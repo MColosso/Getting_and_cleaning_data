@@ -1,10 +1,10 @@
-### **README**
+﻿## **README**
 
 Based on Human Activity Recognition Using Smartphones Dataset project (Smartlab - Non Linear Complex Systems Laboratory, DITEN - Università degli Studi di Genova, Italy), data collected by Anguita et al [1] where, with a group of 30 volunteers within an age bracket of 19-48 years, each one performing six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist, captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz using its embedded accelerometer and gyroscope. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. (Original data of the project can be found at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 With this data we build a [tidy dataset](https://github.com/MColosso/Getting_and_cleaning_data/blob/master/tidy_dataset.txt) with an average of every mean and standard deviation of the given features, grouped by subject and activity.
 
-[run_analysis.R](https://github.com/MColosso/Getting_and_cleaning_data/blob/master/run_analysis.R)
+###[run_analysis.R](https://github.com/MColosso/Getting_and_cleaning_data/blob/master/run_analysis.R)
 ==============
 The script to make this tidy dataset is packed in a function named run_analysis, and is located in the same directory (folder) as the **UCI HAR Dataset**.
 
@@ -26,11 +26,11 @@ In the fifth and last step, we created a second, independent tidy data set with 
 - Calculate average for following columns binding the result with the new dataset
 - Change the names of the columns this dataset to those used in intermediate dataset (step 4) and write the resulting dataset.
 
-Codebook
+###Codebook
 =========
 The codebook of resulting dataset can be found at [CodeBook.md](https://github.com/MColosso/Getting_and_cleaning_data/blob/master/CodeBook.md)
 
 
-Notes
+###Notes
 =====
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
