@@ -1,5 +1,6 @@
 ﻿### **tidy_dataset.txt CodeBook**
 
+```
 1    subject
          Code number of any of the 30 volunteers in the study
 2    activity
@@ -101,3 +102,4 @@
 67   fbodybodygyrojerkmagmean
 68   fbodybodygyrojerkmagstd
          Average and standard deviation of Fast Fourier Transform (FFT) applied to magnitude of composed gyroscope Jerk signals
+```
